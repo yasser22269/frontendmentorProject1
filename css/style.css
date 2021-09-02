@@ -30,6 +30,7 @@ main{
     main {
       background-image: url('../images/pattern-background-desktop.svg');
     }
+    
 }
 
 .card{
@@ -38,6 +39,11 @@ main{
     margin: 72px auto;
     max-width: 400px;
     overflow: hidden;
+}
+@media (max-width: 768px) {
+    .card {
+        margin: 72px 20px;
+    }
 }
 .card img{
     margin-bottom: 25px;
